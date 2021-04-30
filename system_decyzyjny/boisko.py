@@ -6,15 +6,9 @@ import math
 img = np.zeros((700, 1200, 3), dtype = "uint8")
 font = cv2.FONT_HERSHEY_SIMPLEX
 
-v = 10
-kat1 = 0; kat2 = 0; kat3 = 0
-xP = 600; yP = 300
-
 i = 0
 
-x1 = 220;y1 = 300;
-x2 = 300;y2 = 200;
-x3 = 500;y3 = 450;
+
 
 
 while(True):
