@@ -1,1 +1,3 @@
-# robocup-2021
+# RoboCup 2021
+
+Algorytmy wykorzystywane podczas RoboCup 2021
