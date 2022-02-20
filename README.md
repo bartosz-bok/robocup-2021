@@ -12,7 +12,7 @@ This repository contains all the Webots simulator files, along with the controll
 3. Copy the KNR_Melson.json from https://gitlab.com/bbokserki/melman_robocup/-/tree/master/json to robocup/controllers/referee/team_1.json
 
 4. Setup robocup/controllers/referee/game.json::              
-
+```bash
      "host": "0.0.0.0",
      "red": {
        "hosts": [
@@ -29,7 +29,7 @@ This repository contains all the Webots simulator files, along with the controll
          10024
        ]
      },
-
+```
 5. Run the containers::
 
      `cd melman_robocup/`
