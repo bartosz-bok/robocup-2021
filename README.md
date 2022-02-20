@@ -2,6 +2,7 @@
 
 The "Melson" football team on the Webots platform for the RoboCup competition 
 
+## Docker
 1. Install or update Webots according to https://github.com/RoboCup-Humanoid-TC/webots/blob/release/projects/samples/contests/robocup/README.md
 
 2. Go to robocup/protos and clone https://gitlab.com/bbokserki/melman_robocup/-/tree/master/protos
@@ -27,18 +28,20 @@ The "Melson" football team on the Webots platform for the RoboCup competition
        ]
      },
 
-(We aren't sure about hosts IP adresses)
-
 5. Run the containers::
 
-     cd melman_robocup/
-     docker build . -f docker/Dockerfile -t melman_robocup
-     docker run -it --rm -eROBOCUP_SIMULATOR_ADDR=172.17.0.1:10021 melman_robocup
-     docker run -it --rm -eROBOCUP_SIMULATOR_ADDR=172.17.0.1:10022 melman_robocup
-     docker run -it --rm -eROBOCUP_SIMULATOR_ADDR=172.17.0.1:10023 melman_robocup
-     docker run -it --rm -eROBOCUP_SIMULATOR_ADDR=172.17.0.1:10024 melman_robocup
+     `cd melman_robocup/`
      
-(We aren't sure about this)
+     `docker build . -f docker/Dockerfile -t melman_robocup`
+     
+     `docker run -it --rm -eROBOCUP_SIMULATOR_ADDR=172.17.0.1:10021 melman_robocup`
+     
+     `docker run -it --rm -eROBOCUP_SIMULATOR_ADDR=172.17.0.1:10022 melman_robocup`
+     
+     `docker run -it --rm -eROBOCUP_SIMULATOR_ADDR=172.17.0.1:10023 melman_robocup`
+     
+     `docker run -it --rm -eROBOCUP_SIMULATOR_ADDR=172.17.0.1:10024 melman_robocup`
+     
 
 6. To use Dockerfile there is need to download /docker and /controllers paths from https://gitlab.com/bbokserki/melman_robocup/-/tree/master/
 
