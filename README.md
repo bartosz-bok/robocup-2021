@@ -1,6 +1,8 @@
 # RoboCup 2021
 
-The "Melson" football team on the Webots platform for the RoboCup competition 
+This repository contains all the Webots simulator files, along with the controller that is implemented in the "Melson" football team. There is also a docker that allows to test the team's operation on Webots platform.
+
+ ![](./images/webots_simulator.png)
 
 ## Docker
 1. Install or update Webots according to https://github.com/RoboCup-Humanoid-TC/webots/blob/release/projects/samples/contests/robocup/README.md
